@@ -4,7 +4,7 @@
 [x]- Open the cloned repo project in your favorite IDE. Start a terminal session.
 []- Update/change the remote origin path with to the new SSH path **OR** add a new path (f.i "solved" or "destination"). [Github's git remote actions docs](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories).
 [x]- Push the main/master branch to the new repository.
-[]- Run ```npm i``` to install dependencies and packages.
+[x]- Run ```npm i``` to install dependencies and packages.
 []- Start solving the exercises, following the "HOW IT WORKS" section.
 
 ## BEFORE YOU START
