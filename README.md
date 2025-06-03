@@ -1,18 +1,18 @@
 ## GETTING STARTED
-- Clone this repository.
-- Create a new repository in your Github account. Set it to be a public repo. Copy the new repo SSH path.
-- Open the cloned repo project in your favorite IDE. Start a terminal session.
-- Update/change the remote origin path with to the new SSH path **OR** add a new path (f.i "solved" or "destination"). [Github's git remote actions docs](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories).
-- Push the main/master branch to the new repository.
-- Run ```npm i``` to install dependencies and packages.
-- Start solving the exercises, following the "HOW IT WORKS" section.
+[x] - Clone this repository.
+[] - Create a new repository in your Github account. Set it to be a public repo. Copy the new repo SSH path.
+[]- Open the cloned repo project in your favorite IDE. Start a terminal session.
+[]- Update/change the remote origin path with to the new SSH path **OR** add a new path (f.i "solved" or "destination"). [Github's git remote actions docs](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories).
+[]- Push the main/master branch to the new repository.
+[]- Run ```npm i``` to install dependencies and packages.
+[]- Start solving the exercises, following the "HOW IT WORKS" section.
 
 ## BEFORE YOU START
 Every exercise in this assignment has a reference to a .MD file in the /exercise-info/ folder. Make sure to read the
 info file before you start solving the exercise tasks.
 
 ## HOW IT WORKS
-- The repo has the "exercises" folder with 4 exercise files (e1.js, e2.js, ... etc). Each file includes the 
+[]- The repo has the "exercises" folder with 4 exercise files (e1.js, e2.js, ... etc). Each file includes the 
 task/tasks description, and a placeholder for your code.
 - Descriptions for every next exercise is located in /exercise-info/ folder
 - Open e1.js file and start writing function code in the "Your code goes here..." placeholder to achieve the goals described.
