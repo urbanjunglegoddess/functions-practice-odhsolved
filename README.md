@@ -1,7 +1,7 @@
 ## GETTING STARTED
 [x] - Clone this repository.
-[] - Create a new repository in your Github account. Set it to be a public repo. Copy the new repo SSH path.
-[]- Open the cloned repo project in your favorite IDE. Start a terminal session.
+[x] - Create a new repository in your Github account. Set it to be a public repo. Copy the new repo SSH path.
+[x]- Open the cloned repo project in your favorite IDE. Start a terminal session.
 []- Update/change the remote origin path with to the new SSH path **OR** add a new path (f.i "solved" or "destination"). [Github's git remote actions docs](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories).
 []- Push the main/master branch to the new repository.
 []- Run ```npm i``` to install dependencies and packages.
