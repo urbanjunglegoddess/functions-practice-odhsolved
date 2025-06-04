@@ -32,11 +32,11 @@ logMessage();
 
 // Your code goes here...
 
-function logMyMesaage (message){
+function logMyMessage (message){
     console.log('I log my first message!');
 }
 
-logMyMesaage("My message");
+logMyMessage("My message");
 
 /**
  * ===============================================================
@@ -86,6 +86,6 @@ const f = {
   logMyMessage: logMyMessage || undefined,
   logMessageWithMyName: logMessageWithMyName || undefined,
   logMyInfo: logMyInfo || undefined
-}
+};
 
 export { f };
