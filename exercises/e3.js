@@ -15,9 +15,18 @@
  */
 
 // Your code goes here...
+// The function name is 'doesArrayIncludeItemsBetweenVals'
+//The function take an arr (array), val1 (number) and val2 (number) as arguments.
+function doesArrayIncludeItemsBetweenVals(arr, val1, val2) {
+//The function returns a boolean if array includes an item that is greater than val1 and less than val2
+ // if all items are between) val1 and val2, return true{
+ // make an early return if the item is found
 
+return false; // use the default return otherwise
+}
 
-
+doesArrayIncludeItemsBetweenVals([2, 4, 2], 3, 5);
+doesArrayIncludeItemsBetweenVals([2, 4, 2], 5, 10)
 
 /**
  * ====================================================
