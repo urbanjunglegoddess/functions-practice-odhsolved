@@ -18,15 +18,16 @@
 // The function name is 'doesArrayIncludeItemsBetweenVals'
 //The function take an arr (array), val1 (number) and val2 (number) as arguments.
 function doesArrayIncludeItemsBetweenVals(arr, val1, val2) {
-//The function returns a boolean if array includes an item that is greater than val1 and less than val2
- // if all items are between) val1 and val2, return true{
- // make an early return if the item is found
-
-return false; // use the default return otherwise
+  for (let item of arr) {
+    if (item > val1 && item < val2) {
+      return true;
+    }
+  }
+  return false;
 }
 
 doesArrayIncludeItemsBetweenVals([2, 4, 2], 3, 5);
-doesArrayIncludeItemsBetweenVals([2, 4, 2], 5, 10)
+doesArrayIncludeItemsBetweenVals([2, 4, 2], 5, 10);
 
 /**
  * ====================================================
@@ -44,9 +45,29 @@ doesArrayIncludeItemsBetweenVals([2, 4, 2], 5, 10)
  */
 
 // Your code goes here...
+// Named function: getValueWithConditionOne;
+function getValueWithConditionOne(num1, num2) {
+    if (num1 === 40 && num2 === 40) {
+        return num1 + num2;
+    }
+    return (num1 + num2) * 2;
+}
 
+// Arrow Function name: getValueWithConditionTwo;
+const getValueWithConditionTwo = (num1, num2) => {
+   if (num1 === 40 && num2 === 40) {
+        return num1 + num2;
+    }
+    return (num1 + num2) * 2;
+};
 
-
+//Variable name for the function expression: getValueWithConditionThree;
+const getValueWithConditionThree = function(num1, num2) {
+   if (num1 === 40 && num2 === 40) {
+        return num1 + num2;
+    }
+    return (num1 + num2) * 2;
+};
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-3"
